@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Split Mode 3</title>
+	<link rel="stylesheet" href="css/split.css">
+</head>
+<body>
+
+<table style="height:700px; width:100%;" cellpadding="0" cellspacing="5">
+	<tr>
+		<td style="position:relative;">
+		<div id="cell">
+			<div id="controls">
+			<button id="backward1" title="Go Backward" disabled="true"><img src="images/left-arrow.png"></img></button>
+			<button id="forward1" title="Go Forward" disabled="true"><img src="images/right-arrow.png"></img></button>
+			<button id="refresh1" title="Refresh" ><img src="images/refresh.png"></img></button>
+			<form id="urlsearch">
+				<div id="searchurl">
+					<input id="search1" type="text" placeholder='&#128269; SearchURL' style="font-family: FontAwesome,Times New Roman">
+				</div>
+			</form>
+			</div>
+			<div class="views">
+				<webview id="view1" src="http://www.google.com"></webview>
+			</div>
+		</div>
+		</td>
+		<td style="position:relative;">
+		<div id="cell">
+			<div id="controls">
+			<button id="backward2" title="Go Backward" disabled="true"><img src="images/left-arrow.png"></img></button>
+			<button id="forward2" title="Go Forward" disabled="true"><img src="images/right-arrow.png"></img></button>
+			<button id="refresh2" title="Refresh" ><img src="images/refresh.png"></img></button>
+			<form id="urlsearch">
+				<div id="searchurl">
+					<input id="search2" type="text" placeholder='&#128269; SearchURL' style="font-family: FontAwesome,Times New Roman">
+				</div>
+			</form>
+			</div>
+			<div class="views">
+				<webview id="view2" src="http://www.google.com"></webview>
+			</div>
+		</div>
+		</td>
+	</tr>
+	<tr >
+		<td colspan="2" style="position:relative;">
+		<div id="cell">
+			<div id="controls">
+			<button id="backward3" title="Go Backward" disabled="true"><img src="images/left-arrow.png"></img></button>
+			<button id="forward3" title="Go Forward" disabled="true"><img src="images/right-arrow.png"></img></button>
+			<button id="refresh3" title="Refresh" ><img src="images/refresh.png"></img></button>
+			<form id="urlsearch">
+				<div id="searchurl">
+					<input id="search3" type="text" placeholder='&#128269; SearchURL' style="font-family: FontAwesome,Times New Roman">
+				</div>
+			</form>
+			</div>
+			<div class="views">
+				<webview id="view3" src="http://www.google.com"></webview>
+			</div>
+		</div>
+		</td>
+	</tr>
+	<script src="js/Split3.js"></script>    
+</body>
+</html>

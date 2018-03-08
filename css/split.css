@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	overflow:hidden;
+}
+button,
+input {
+  outline: none;
+}
+
+#controls {
+  padding: 3px;
+  border-bottom: solid 1px #ccc;
+  background-color: #eee;
+}
+
+#controls button,
+#controls input {
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 2px;
+  padding: 0 6px;
+}
+
+#controls button,#controls button[disabled]:hover {
+  border: solid 1px transparent;
+  background: transparent;
+}
+
+#controls button:hover{
+  border-color: #b3b3ff;
+  background: -webkit-linear-gradient(bottom, #cccccc 0%, #f2f2f2 99%);
+}
+
+#controls button:active{
+  border-color: #bbb;
+  background: -webkit-linear-gradient(bottom, #e2e2e2 0%, #bbbbbb 99%);
+}
+
+
+#controls #backward1,#controls #forward1,#controls #refresh1,
+#controls #backward2,#controls #forward2,#controls #refresh2,
+#controls #backward3,#controls #forward3,#controls #refresh3,
+#controls #backward4,#controls #forward4,#controls #refresh4{
+	font-size: 18px;
+}
+
+#search1,#search2,#search3,#search4 {
+  border: solid 1px #ccc;
+  padding: 3px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+}
+
+#controls {
+  display: -webkit-flex;
+  -webit-flex-direction: column;
+}
+
+#controls #urlsearch {
+  -webkit-flex: 1;
+  display: -webkit-flex;
+  -webit-flex-direction: column;
+}
+
+#controls #searchurl {
+  -webkit-flex: 1;
+}
+table,td{
+	border:1px solid #CCC;
+}
+.views{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+#view1,#view2,#view3,#view4{
+	width:100%;
+	height:90%;
+}
+
+#cell{
+	width:100%;
+	height:100%;
+}

@@ -1,0 +1,23 @@
+body{margin:0;padding:0;border:0;overflow:hidden;}
+#nav-body-ctrls{background-color:#f5f5f5;padding:10px;font-family:arial}
+#nav-body-tabs{background:linear-gradient(whitesmoke 75%,rgba(211,211,211,0.5));height:30px;font-family:Garamond;font-size:14pt}
+#nav-body-views{flex:1;width:100%;	height:calc(100vh - 28px)}
+.nav-icons{fill:#606060}
+.nav-icons:hover{fill:#000}
+#nav-ctrls-back,#nav-ctrls-forward,#nav-ctrls-reload{height:25px;width:25px;margin-right:10px}
+#nav-ctrls-multitab{height:50px;width:50px;margin-right:10px}
+#nav-ctrls-url{box-shadow:0 0 5px #e4e4e4;border:0;border-radius:2px;height:30px;margin-left:8px;margin-right:8px;font-size:11pt;outline:none;padding-left:10px;color:#b7b7b7}
+#nav-ctrls-url:focus{color:#303030;box-shadow:0 0}
+.dropdown {position: relative;display: inline-block;width:30px;height:30px;}
+.dropdown-content {display: none;position: absolute;background-color: #f1f1f1;min-width: 120px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;right:0;}
+.dropdown-content div {color: black;padding: 10px 10px;text-decoration: none;display: block;cursor:default;}
+.dropdown-content div:hover {background-color: #ddd}
+.dropdown:hover .dropdown-content {display: block;}
+#nav-tabs-add{margin:5px}
+.nav-tabs-tab{border-radius:2px;height:30px}
+.nav-tabs-tab.active{background:rgba(211,211,211,0.5)}
+.nav-tabs-favicon{margin:6px}
+.nav-tabs-title{padding-left:5px;font-style:normal;font-weight:700;color:#606060}
+.nav-tabs-title:hover{color:#000}
+.nav-tabs-close{width:20px;height:20px;margin:6px;margin-left:2px}
+.nav-tabs-close:hover{fill:#dc143c}

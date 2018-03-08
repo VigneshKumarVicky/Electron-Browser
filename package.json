@@ -1,0 +1,15 @@
+{
+  "name": "vicky",
+  "version": "1.0.0",
+  "description": "Electron Browser",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vignesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "electron-localshortcut": "^3.1.0",
+    "jquery": "^3.3.1"
+  }
+}
